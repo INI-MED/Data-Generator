@@ -3,7 +3,7 @@ import hashlib
 import uuid
 
 
-def key(keyword, how_many):
+def key(keyword, how_many: int):
     count = []
     while how_many > 0:
 
