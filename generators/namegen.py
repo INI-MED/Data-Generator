@@ -8,7 +8,7 @@ surnames = [ "barker", "Simpson", "Spirits", "murphy", "blacker", "bleacher", "r
             "warren", "keller", "cocker", "white", "Nickson", "Van Rossum", "Raegan", "Griffin", "Mask"]
 
 
-def gen_unique_names(names, surnames, how_many):
+def gen_unique_names(names, surnames, how_many: int):
     answer = []
     while how_many > 0:
         combo = choice(names) + ' ' + choice(surnames)
